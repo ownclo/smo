@@ -1,0 +1,21 @@
+
+# delete this if you want SASL error messages
+-s lager
+
+# Start SASL
+-boot start_sasl
+
+# Start main application
+-s smo
+
+# Start 'sync' script, for auto-reloading
+-s sync
+
+# Cookie name
+-setcookie smo
+
+# Kernel polling
++K true
+
+# 4 async threads
++A 8

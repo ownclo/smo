@@ -1,0 +1,15 @@
+{application, smo, [                                                     
+    {description, ""},
+    {vsn, "1"},
+    {registered, []},
+    {modules, [
+        ]},
+    {applications, [
+        kernel,
+        stdlib
+            ]},
+    {mod, {
+      smo_app, []
+    }},
+    {env, []}
+]}.
